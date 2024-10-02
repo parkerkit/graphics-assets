@@ -1,0 +1,91 @@
+{
+    "asset": {
+        "generator": "Khronos glTF Blender I/O v4.5.48",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "sphere"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "sphere_Mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    },
+                    "indices": 2
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 18,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 18,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5123,
+            "count": 96,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 216,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 432,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 624,
+            "uri": "data:application/octet-stream;base64,AACAPwAAAAAAAACAAAAAAAAAAAAAAIC/AACAvwAAAAAAAACAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAACAAAAAAAAAgL8AAACA8wQ1P/MENT8AAACA8wQ1PwAAAADzBDW/AAAAAPMENT/zBDW/AAAAAPMENb/zBDW/8wQ1P/MENb8AAACA8wQ1vwAAAADzBDW/8wQ1v/MENT8AAACA8wQ1v/MENb8AAACA8wQ1vwAAAADzBDU/AAAAAPMENT/zBDU/AAAAAPMENb/zBDU/8wQ1PwAAAADzBDU/AACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAA9AQ1P/QENT8AAAAA9AQ1PwAAAAD0BDW/AAAAAPQENT/0BDW/AAAAAPQENb/0BDW/9AQ1P/QENb8AAAAA9AQ1vwAAAAD0BDW/9AQ1v/QENT8AAAAA9AQ1v/QENb8AAAAA9AQ1vwAAAAD0BDU/AAAAAPQENT/0BDU/AAAAAPQENb/0BDU/9AQ1PwAAAAD0BDU/BAAGAAgABgAAAAcACAAHAAEABgAHAAgABQAJAAoACQABAAcACgAHAAAACQAHAAoABAAIAAwACAABAAsADAALAAIACAALAAwABQANAAkADQACAAsACQALAAEADQALAAkABAAMAA8ADAACAA4ADwAOAAMADAAOAA8ABQAQAA0AEAADAA4ADQAOAAIAEAAOAA0ABAAPAAYADwADABEABgARAAAADwARAAYABQAKABAACgAAABEAEAARAAMACgARABAA"
+        }
+    ]
+}

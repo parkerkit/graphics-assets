@@ -1,0 +1,38 @@
+# Blender 4.5.3 LTS MTL File: 'C919_refined.blend'
+# www.blender.org
+
+newmtl Aircraft_Exterior_PBR
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Airframe_BaseColor.png
+map_Pr Airframe_Roughness.png
+map_Pm Airframe_Metallic.png
+map_Bump -bm 0.300000 Airframe_Normal.png
+
+newmtl Aircraft_Fuselage_PBR
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Fuselage_BaseColor.png
+map_Pr Fuselage_Roughness.png
+map_Pm Fuselage_Metallic.png
+map_Bump -bm 0.300000 Fuselage_Normal.png
